@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - Saint Leo University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Saint Leo University Courses</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Available Courses by Department</h2>
+    <div id="course-container">
+      <p>Loading courses…</p>
+    </div>
+  </div>
+
+  <script>
+    // Fetch courses from JSON file
+    fetch('courses.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('course-container');
+        container.innerHTML = ''; // Clear loading text
+
+        data.forEach(dept => {
+          const deptDiv = document.createElement('div');
+          deptDiv.classList.add('department');
+
+          // Department name
+          const deptHeader = document.createElement('h3');
+          deptHeader.textContent = dept.department;
+          deptDiv.appendChild(deptHeader);
+
+          // List of courses
+          const ul = document.createElement('ul');
+          dept.courses.forEach(course => {
+            const li = document.createElement('li');
+            li.textContent = `${course.code} — ${course.title} (Level ${course.level})`;
+            ul.appendChild(li);
+          });
+
+          deptDiv.appendChild(ul);
+          container.appendChild(deptDiv);
+        });
+      })
+      .catch(err => {
+        const container = document.getElementById('course-container');
+        container.innerHTML = `<p style="color:red;">Error loading courses: ${err}</p>`;
+      });
+  </script>
+</body>
+</html>

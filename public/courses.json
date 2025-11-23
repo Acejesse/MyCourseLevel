@@ -1,0 +1,74 @@
+[
+  {
+    "department": "University Explorations / Foundation",
+    "courses": [
+      { "code": "SLU 101", "title": "Introduction to the University Experience", "level": "Foundation" },
+      { "code": "COM 140", "title": "Basic Computer Skills", "level": "Foundation" },
+      { "code": "ENG 121", "title": "Academic Writing I", "level": "Foundation" },
+      { "code": "ENG 122", "title": "Academic Writing II", "level": "Foundation" },
+      { "code": "MAT 131", "title": "College Mathematics", "level": "Foundation" },
+      { "code": "MAT 141", "title": "Higher Mathematics (Business Majors)", "level": "Foundation" },
+      { "code": "MAT 151", "title": "Mathematics for Nursing", "level": "Foundation" },
+      { "code": "PHI 210", "title": "Thinking and Doing Ethics", "level": "Foundation" },
+      { "code": "REL 115", "title": "Is God Silent? How to Read Scripture", "level": "Foundation" },
+      { "code": "REL 125", "title": "Searching for Light in the Darkness", "level": "Foundation" }
+    ]
+  },
+  {
+    "department": "The Human Adventure (Social Sciences)",
+    "courses": [
+      { "code": "ECO 110HA", "title": "Economics for Life", "level": "Cluster" },
+      { "code": "HTY 110HA", "title": "Immigration: The Changing Face of America", "level": "Cluster" },
+      { "code": "POL 110HA", "title": "Revolution Now! Democracy in Troubled Times", "level": "Cluster" },
+      { "code": "PSY 110HA", "title": "Psychological Well Being: How to Be Sane in an Insane World", "level": "Cluster" },
+      { "code": "REL 120HA", "title": "Politics of Jesus", "level": "Cluster" },
+      { "code": "REL 215HA", "title": "Who Would Jesus Kill?", "level": "Cluster" },
+      { "code": "SOC 110HA", "title": "The McDonaldization of Society", "level": "Cluster" },
+      { "code": "SWK 210HA", "title": "Equity and Justice", "level": "Cluster" },
+      { "code": "IDS 120HA", "title": "AI Unlocked: Skills for Life, Work and Society", "level": "Cluster" }
+    ]
+  },
+  {
+    "department": "The Human Mosaic (Diversity)",
+    "courses": [
+      { "code": "ART 110HM", "title": "Curves Ahead: Women Artists and the Female Form", "level": "Cluster" },
+      { "code": "IDS 115HM", "title": "The Imagined West: The Western Myth in Literature, Art and Philosophy", "level": "Cluster" },
+      { "code": "LBS 120HM", "title": "Stories of Resistance: Power and Identity in the U.S.", "level": "Cluster" },
+      { "code": "GLO 210HM", "title": "Feeding the Planet: Challenges and Opportunities for the 21st Century", "level": "Cluster" },
+      { "code": "HUM 215HM", "title": "Breaking the Code: Language and Culture", "level": "Cluster" },
+      { "code": "HTY 110HM", "title": "Native American History and Life: More Than Tipis and Tomahawks", "level": "Cluster" },
+      { "code": "IDS 210HM", "title": "Once Upon a Time: Readings in Folklore and Culture", "level": "Cluster" },
+      { "code": "REL 223HM", "title": "World Religions: East and West", "level": "Cluster" },
+      { "code": "SOC 110HM", "title": "Building a Multiracial Society", "level": "Cluster" },
+      { "code": "SWK 220HM", "title": "HipHop and Social Justice", "level": "Cluster" },
+      { "code": "SWK 225HM", "title": "Becoming an Advocate for Justice", "level": "Cluster" }
+    ]
+  },
+  {
+    "department": "Science in a Changing World",
+    "courses": [
+      { "code": "SCI 110SC", "title": "Evaluating the Predictions of Global Warming", "level": "Cluster" },
+      { "code": "SCI 115SC", "title": "Is Evolution True? Your Inner Fish", "level": "Cluster" },
+      { "code": "SCI 120SC", "title": "Human Ecology", "level": "Cluster" },
+      { "code": "SCI 125SC", "title": "The Science of Cooking", "level": "Cluster" },
+      { "code": "SCI 215SC", "title": "Science in Science Fiction", "level": "Cluster" },
+      { "code": "BIO 140", "title": "Fundamentals of Anatomy & Physiology I", "level": "Cluster" },
+      { "code": "BIO 140L", "title": "Fundamentals of Anatomy & Physiology I Lab", "level": "Cluster" },
+      { "code": "BIO 150", "title": "Fundamentals of Anatomy & Physiology II", "level": "Cluster" },
+      { "code": "BIO 150L", "title": "Fundamentals of Anatomy & Physiology II Lab", "level": "Cluster" }
+    ]
+  },
+  {
+    "department": "The Creative Life",
+    "courses": [
+      { "code": "FAS 110CL", "title": "Living the Theatre: Dramatic Skills for All Disciplines", "level": "Cluster" },
+      { "code": "HUM 110CL", "title": "Giants of the Arts", "level": "Cluster" },
+      { "code": "HUM 115CL", "title": "Film: Art of Choice", "level": "Cluster" },
+      { "code": "MUS 110CL", "title": "Spirituals to Rock & Roll: The Story of How American Popular Music Conquered the World", "level": "Cluster" },
+      { "code": "MUS 210CL", "title": "Making Sense of the Sound: The Art of Listening Well to Great Music", "level": "Cluster" },
+      { "code": "ENG 210CL", "title": "Love and Desire in Literature", "level": "Cluster" },
+      { "code": "ENG 215CL", "title": "Monsters and the Monstrous in Literature", "level": "Cluster" },
+      { "code": "ENG 225CL", "title": "Writing Wild: Exploring the Four Genres", "level": "Cluster" }
+    ]
+  }
+]
