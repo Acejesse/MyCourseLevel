@@ -15,4 +15,4 @@ JSON data integration
 
 GitHub repository management
 
-Deployment through GitHub Codespaces
+Deployment through GitHub Codespaces.
